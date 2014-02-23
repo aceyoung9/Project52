@@ -1,10 +1,11 @@
 $myBlue: #0CBCC9;
-$dkGrey: #222222;
+$dkGrey: #4a5562;
+$lite:   #e9ecee;
 
 body {
   font-family: 'Lato', sans-serif;
   text-align: center;
-  background: #f4f4f4;
+  background: $lite;
   color: $dkGrey;
   margin: 0;
   padding: 0;
@@ -12,7 +13,7 @@ body {
 
 header {
   background: $dkGrey;
-  color: #eee;
+  color: $lite;
   padding: 15px 0;
   font-weight: 100;
   text-transform: uppercase;
