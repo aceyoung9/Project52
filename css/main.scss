@@ -1,19 +1,40 @@
-body{
-	font-family: "Helvetica";
+$myBlue: #0CBCC9;
+$dkGrey: #444;
+
+body {
+	font-family: 'Lato', sans-serif;
 	text-align: center;
-	padding: 50px 20px 0;
 	background: #f4f4f7;
 	color: #444;
 	margin: 0;
+	padding: 0;
 }
 
-h1{
+header {
+	background: $dkGrey;
+	color: #eee;
+	padding: 10px 0;
+	font-weight: 100;
+	text-transform: uppercase;
+	font-size: 1.45rem;
+	letter-spacing: 1px;
+
+	h1 {
+		font-size: 3.75rem;
+		font-weight: 100;
+		letter-spacing: 0;
+	}
+}
+
+h1 {
 	font-size: 65px;
-	line-height: 1.2em;
-	border-bottom: #CCC solid 1px;
-	padding: 20px 0;
+	margin: 0;
 }
 
-h3{
+h3 {
 	font-weight: 300;
+}
+
+a {
+	color: $myBlue;
 }
