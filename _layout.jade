@@ -3,11 +3,12 @@ html
   head
     link(rel="stylesheet", href="/css/bootstrap.min.css")
     link(rel="stylesheet", href="/css/main.css")
-    link(rel="stylesheet", href="http://fonts.googleapis.com/css?family=Lato:100")
+    link(rel="stylesheet", href="http://fonts.googleapis.com/css?family=Lato:100,300")
+
+    title Project 52 by Alice Young
 
   body
-    header
-      h1 Project 52
-      | by Alice Young, for 2014
+    != partial("_header")
     .container
-      != yield
+      .row
+        != yield
