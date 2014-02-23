@@ -14,9 +14,10 @@
   },
 
   "3": {
-    "img": "img/1.jpg",
-    "title": "Sewall Street",
-    "date": "2014-01-05"
+    "num": "3",
+    "img": "img/3.jpg",
+    "title": "Darling Street",
+    "date": "January 16th"
   },
 
   "4": {

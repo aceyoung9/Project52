@@ -1,7 +1,7 @@
 .container
   .row
     for week, slug in public.week._data
-      .col-sm-3
+      .col-sm-3.col-xs-4.thumb
         a(href="/week/#{ slug }"): img(src= week.img class="img-responsive")
 
 
